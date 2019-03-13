@@ -7,7 +7,7 @@ namespace GuideMe.Proxies
 {
     internal class PlacesNearbyService
     {
-        private string myKey;// = "AIzaSyDIgvwzP3L2qpz3wGlZrw5QHLIX1A4YtoI";
+        private string myKey;// = "";
         private string placesUriTemplate;// = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={0},{1}&rankby=distance&key={2}";
         
         private HttpClient httpClient;

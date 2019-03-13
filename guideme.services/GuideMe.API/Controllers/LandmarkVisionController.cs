@@ -40,7 +40,7 @@ namespace GuideMe.API.Controllers
         [HttpPost]
         public void DetectLandmark([FromBody]byte[] value)
         {
-            string myKey = "AIzaSyDIgvwzP3L2qpz3wGlZrw5QHLIX1A4YtoI";
+            string myKey = "";
             string placesUri = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={0},{1}&rankby=distance&key={2}";
 
             LandmarkService ls = new LandmarkService();
